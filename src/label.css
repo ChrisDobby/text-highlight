@@ -1,0 +1,5 @@
+.label-text {
+  color: #ffff;
+  border-radius: 5px;
+  transition: background-color 1s;
+}

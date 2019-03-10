@@ -1,0 +1,25 @@
+.outline {
+    display: flex;
+    border: 1px solid #F1F3F4;
+    border-radius: 22px;
+    height: 44px;
+    padding: 7px;
+}
+
+.text-input {
+    flex-grow: 1;
+    border: none;
+    color: #ffff;
+    background-color: transparent;
+    outline: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.execute-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    outline: none;
+}
