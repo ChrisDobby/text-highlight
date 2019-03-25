@@ -3,7 +3,6 @@ import "./App.css";
 import SetText from "./setText";
 import SimpleLabel from "./simple-label/label";
 import ClassLabelDidUpdate from "./class-label-did-update/label";
-import ClassLabelDerivedState from "./class-label-derived-state/label";
 import ClassLabelSnapshot from "./class-label-snapshot/label";
 import HooksLabel from "./hooks-label/label";
 
@@ -29,10 +28,6 @@ const App = () => {
                 <div className="App-Container-Component">
                     <h3>Class component (getSnapshotBeforeUpdate)</h3>
                     <ClassLabelSnapshot text={text} />
-                </div>
-                <div className="App-Container-Component">
-                    <h3>Class component (getDerivedStateFromProps)</h3>
-                    <ClassLabelDerivedState text={text} />
                 </div>
             </div>
         </div>
