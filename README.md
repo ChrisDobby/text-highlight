@@ -1,5 +1,7 @@
 # text-highlight
 
+Code for this [Pluralsight guide](https://www.pluralsight.com/guides/prop-changes-in-react-component/).
+
 ## Demo
 
 ![demo](demo.gif)
